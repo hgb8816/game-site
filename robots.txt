@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://hgb8816.github.io/game-site/sitemap.xml

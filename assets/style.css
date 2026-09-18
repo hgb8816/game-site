@@ -1,0 +1,36 @@
+:root{
+  --bg:#0f1115; --card:#181b22; --line:#262b36; --txt:#e6e8ee;
+  --sub:#9aa3b2; --accent:#5b8cff; --accent2:#36d399; --warn:#ffb020;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--txt);font-family:-apple-system,"PingFang SC","Microsoft YaHei",Segoe UI,sans-serif;line-height:1.7}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+.wrap{max-width:960px;margin:0 auto;padding:0 16px}
+header{background:linear-gradient(135deg,#1b2030,#0f1115);border-bottom:1px solid var(--line);padding:18px 0}
+header .wrap{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:10px}
+.logo{font-size:20px;font-weight:800;letter-spacing:.5px}
+.logo span{color:var(--accent)}
+nav a{margin-left:14px;color:var(--sub);font-size:14px}
+nav a:hover{color:var(--txt)}
+.hero{padding:40px 0 24px;text-align:center}
+.hero h1{font-size:30px;margin-bottom:10px}
+.hero p{color:var(--sub);max-width:620px;margin:0 auto}
+.ad-box{background:var(--card);border:1px dashed var(--line);border-radius:10px;padding:14px;margin:18px 0;text-align:center;color:var(--sub);font-size:13px}
+.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:16px;margin:24px 0}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:18px;transition:.2s}
+.card:hover{border-color:var(--accent);transform:translateY(-2px)}
+.card h3{font-size:17px;margin-bottom:6px}
+.card p{color:var(--sub);font-size:14px}
+.tag{display:inline-block;background:#1e2330;color:var(--accent2);font-size:12px;padding:2px 8px;border-radius:20px;margin-bottom:8px}
+article{padding:28px 0}
+article h1{font-size:26px;margin-bottom:8px}
+article h2{font-size:20px;margin:24px 0 10px;border-left:3px solid var(--accent);padding-left:10px}
+article p{margin:10px 0;color:#d4d8e0}
+.meta{color:var(--sub);font-size:13px;margin-bottom:16px}
+.btn{display:inline-block;background:var(--accent);color:#fff;padding:9px 16px;border-radius:8px;font-size:14px;margin:6px 0}
+.btn:hover{opacity:.9;text-decoration:none}
+footer{border-top:1px solid var(--line);padding:24px 0;color:var(--sub);font-size:13px;text-align:center;margin-top:30px}
+.affiliate{background:#13251c;border:1px solid #1f3d2c;border-left:3px solid var(--accent2);border-radius:8px;padding:12px 14px;margin:16px 0}
+.affiliate a{font-weight:600}
+.note{background:#2a2113;border:1px solid #4a3a17;border-radius:8px;padding:10px 14px;color:#ffd98a;font-size:13px;margin:14px 0}
